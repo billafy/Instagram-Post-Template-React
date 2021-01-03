@@ -1,0 +1,83 @@
+body
+{
+	font-family: 'Helvetica';
+}
+.post
+{
+	margin: 0px 0px 40px 550px;
+	width : 600px;
+	border : solid rgb(220,220,220) 1px;
+	border-radius: 3px;
+}
+.profilePicture
+{
+	padding: 10px;
+	height : 40px;
+	border-radius: 360px;
+	float: left;
+}
+.usernameLocation
+{
+	padding: 5px 0px 0px 10px;
+	font-size: 0.8rem;
+	float: left;
+}
+.optionsButton
+{
+	width: 40px;
+	float: right;
+	padding: 10px 10px 0px 0px;
+}
+.postImage
+{
+	width: 600px;
+}
+.likeIcon
+{
+	margin: 10px 0px 0px 10px;
+	width: 35px;
+}
+.commentIcon
+{
+	margin-left: 5px;
+	width: 35px;
+}
+.sendIcon
+{
+	margin-left: 8px;
+	width: 35px;
+}
+.saveIcon
+{
+	width: 35px;
+	float: right;
+	margin : 10px 10px 0px 0px;
+}
+.caption
+{
+	margin-left: 10px;
+	font-size: 0.95rem;
+}
+.comment
+{
+	border-top: solid rgb(220,220,220) 1px;
+	width: 600px;
+}
+.commentBox
+{
+	width: 525px;
+	height: 60px;
+	border : 0px;
+	padding-left: 15px;
+}
+.commentButton
+{
+	color: rgb(15,155,246);
+	font-weight: bold;
+	border : 0px;
+	background-color: white;
+}
+.commentBox:focus, .commentButton:focus
+{
+	outline: none;
+}
